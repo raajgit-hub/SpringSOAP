@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <xs:schema targetNamespace="http://fairisaac.com/ScoreNet/EntryPoint" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+         <xs:element name="SubmitRequest">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element form="qualified" minOccurs="0" name="input" type="xs:string"/>
+				  <xs:element form="qualified" minOccurs="0" name="output" type="xs:string"/>                  
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+      </xs:schema>
